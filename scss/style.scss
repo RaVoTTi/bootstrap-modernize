@@ -7,7 +7,7 @@ File: scss
 @import 'variables/_variable';  
 
 // Import Bootstrap source files
-@import "../../landingpage/scss/bootstrap/scss/bootstrap.scss";
+@import "../../bootstrap-modernize/scss/bootstrap/scss/bootstrap.scss";
 
 // 
 // Scrollbar style (Required file)
@@ -22,6 +22,25 @@ File: scss
 // 
 @import 'layouts/header';
 @import 'layouts/preloader';
+
+
+@import 'components/tabs';
+@import 'components/card';
+
+
+//* MIXINS
+@import 'mixins/buttons';
+@import 'mixins/forms';
+
+//* FORMS
+@import 'forms/input-group';
+@import 'forms/form-check';
+
+
+//* I DON'T KNOW
+@import 'buttons';
+@import 'offcanvas';
+
 
 
 
